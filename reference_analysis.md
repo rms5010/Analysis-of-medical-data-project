@@ -25,7 +25,7 @@
 * **평가 지표:** $SMAPE$ (수요 예측), $Total\,Logistics\,Cost$ (최적화 평가)
 
 ## 6. 주요 기능 (Core Functions)
-* **Multi-Model Forecaster:** ARIMA(통계), XGBoost(ML), LSTM(DL) 기반의 수요 예측 에이전트 모듈.
+* **Multi-Model Forecaster:** 선형회귀(base), ARIMA(통계), XGBoost(ML), LSTM(DL) 기반의 수요 예측 에이전트 모듈.
 * **Inventory Optimizer:** 예측 데이터를 상수화하여 재고 유지비와 발주 비용을 최소화하는 수리 모델링 엔진.
 * **Agent-Friendly Architecture:** OpenClaw 아키텍처를 참고하여 `src/agents/` 및 `src/prompts/`로 분리된 모듈형 구조.
 
