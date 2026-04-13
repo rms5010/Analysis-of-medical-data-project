@@ -9,7 +9,7 @@
 * **데이터 사이언스의 실무 적용:** 시계열 분석의 다양한 방법론을 실제 비즈니스 데이터에 적용하여 실무적인 인사이트를 도출하고자 합니다.
 
 ## 3. 목표 (Objectives)
-* **다중 모델 비교 분석:** ARIMA, XGBoost, LSTM 세 가지 모델을 구현하여 데이터 특성에 따른 최적의 수요 예측 알고리즘을 규명합니다.
+* **다중 모델 비교 분석:** ARIMA,  랜덤포레스트, XGBoost, LSTM 세 가지 모델을 구현하여 데이터 특성에 따른 최적의 수요 예측 알고리즘을 규명합니다.
 * **비용 최소화 알고리즘 구현:** 예측된 수요를 기반으로 선형계획법(LP)을 적용하여 총 물류 비용을 최소화하는 최적 해를 도출합니다.
 * **확장 가능한 아키텍처 설계:** OpenClaw 구조를 벤치마킹하여 AI 에이전트가 코드를 파싱하고 실행하기 용이한 모듈형 시스템을 구축합니다.
 
@@ -25,7 +25,7 @@
 * **평가 지표:** $SMAPE$ (수요 예측), $Total\,Logistics\,Cost$ (최적화 평가)
 
 ## 6. 주요 기능 (Core Functions)
-* **Multi-Model Forecaster:** 선형회귀(base), ARIMA(통계), XGBoost(ML), LSTM(DL) 기반의 수요 예측 에이전트 모듈.
+* **Multi-Model Forecaster:** ARIMA(통계), 랜덤포레스트, XGBoost(ML), LSTM(DL) 기반의 수요 예측 에이전트 모듈.
 * **Inventory Optimizer:** 예측 데이터를 상수화하여 재고 유지비와 발주 비용을 최소화하는 수리 모델링 엔진.
 * **Agent-Friendly Architecture:** OpenClaw 아키텍처를 참고하여 `src/agents/` 및 `src/prompts/`로 분리된 모듈형 구조.
 
